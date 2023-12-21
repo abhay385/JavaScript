@@ -50,3 +50,5 @@ student.cgpa = 9.9;
 student.ispass = false;
 student.isDistinction = false;
 console.log(student);
+console.log(typeof student);
+console.log(typeof student["cgpa"]);
