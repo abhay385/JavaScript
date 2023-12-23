@@ -52,3 +52,33 @@ student.isDistinction = false;
 console.log(student);
 console.log(typeof student);
 console.log(typeof student["cgpa"]);
+console.log("\n.................\n")
+console.log("let vs var vs ()()");
+function show(){
+    {
+    var x1 = 3;
+    var y1 = 6;
+    }
+    console.log(x1, y1);
+}
+show();
+
+function show3(){
+    {
+    (function() {
+        var x1 = 3;
+        var y1 = 6;
+    })();
+    }
+    console.log(x3, y3);
+}
+show3();
+
+// function show1(){
+//     {
+//     let x2 = 3;
+//     let y2 = 6;
+//     }
+//     console.log(x2, y2);
+// }
+// show1();
