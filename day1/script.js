@@ -56,8 +56,8 @@ console.log("\n.................\n")
 console.log("let vs var vs ()()");
 function show(){
     {
-    var x1 = 3;
-    var y1 = 6;
+    var x1 = 30;
+    var y1 = 60;
     }
     console.log(x1, y1);
 }
@@ -66,8 +66,8 @@ show();
 function show3(){
     {
     (function() {
-        var x1 = 3;
-        var y1 = 6;
+        var x1 = 33;
+        var y1 = 66;
     })();
     }
     console.log(x3, y3);
