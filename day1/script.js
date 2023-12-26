@@ -1,4 +1,4 @@
-console.log("Hell and Welcome to JS");
+console.log("Hello and Welcome to JS");
 let name1 = "Tony Stark";
 console.log(name1);
 let x;
@@ -53,6 +53,8 @@ console.log(student);
 console.log(typeof student);
 console.log(typeof student["cgpa"]);
 console.log("\n.................\n")
+
+// IIFE () ()
 console.log("let vs var vs ()()");
 function show(){
     {
