@@ -129,5 +129,24 @@ let str3 = str1 + str2
 // console.log("1" + 2 + 2)
 // console.log(1 + 2 + "2")
 
-console.log(true)
-console.log(+true)  // special conversion
+// console.log(true)
+// console.log(+true)  // special conversion
+
+
+//   Comparison of data types
+
+/* Make sure to compare same data types only */
+
+// console.log(2 > 1)
+// console.log( 1 != 3)
+
+// console.log("2" > 1)
+// console.log("02" > 1)
+
+
+console.log(null > 0)
+console.log(null == 0)
+console.log(null >= 0)    // surprised output
+
+console.log(undefined < 0)
+console.log(undefined > 0)
