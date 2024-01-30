@@ -93,9 +93,9 @@ let someNum = 33
 let isLoggedIn = "abhay"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(typeof isLoggedIn)
-console.log(typeof booleanIsLoggedIn)
-console.log(booleanIsLoggedIn)
+// console.log(typeof isLoggedIn)
+// console.log(typeof booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 /* Notes for conversion  any to boolean
 
@@ -107,3 +107,27 @@ input       |      outputs
 "abhay"     |       true
 
 */
+
+//  Operations  
+
+let val = 3
+let negVal = -val
+// console.log(negVal)
+// console.log(2/5)
+// console.log(2%5)
+// console.log(2**5)
+
+let str1 = "wel"
+let str2 = "come"
+let str3 = str1 + str2
+// console.log(str3)
+// let str4 = str3 + " to Javascript"
+// console.log(str4)
+
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+console.log(true)
+console.log(+true)  // special conversion
