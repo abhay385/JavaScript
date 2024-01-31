@@ -144,9 +144,54 @@ let str3 = str1 + str2
 // console.log("02" > 1)
 
 
-console.log(null > 0)
-console.log(null == 0)
-console.log(null >= 0)    // surprised output
+// console.log(null > 0)
+// console.log(null == 0)
+// console.log(null >= 0)    // surprised output
 
-console.log(undefined < 0)
-console.log(undefined > 0)
+// console.log(undefined < 0)
+// console.log(undefined > 0)
+
+
+// Data types
+
+/*
+
+let num = 39
+console.log(typeof num)
+
+let string = "Javascript"
+console.log(typeof string)
+
+let isTrue = false
+console.log(typeof isTrue)
+
+let val1 = null
+console.log(typeof val1)
+
+let val2 = undefined
+console.log(typeof val2)
+
+let sym = Symbol("12")
+let sym1 = Symbol("12")
+console.log(sym)
+console.log(typeof sym)
+console.log(sym === sym1)  // output is false bcz of uniqueness nature of symbol
+
+let big = 345674849884744694847665446
+let big1 = 6454630575848n        // bigInt ends with n
+console.log(typeof big)
+console.log(typeof big1)
+*/
+
+//  Memory
+
+/*  static memory (primitive data types)
+
+    heap memory  (Reference data type or Non-primitive data type)  */
+
+    /*
+let array = ["ram", "shaym", "mohan"]
+console.log(array)
+console.log(typeof array)
+    */
+
