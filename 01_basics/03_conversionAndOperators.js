@@ -195,3 +195,22 @@ console.log(array)
 console.log(typeof array)
     */
 
+/*
+   let myObj = {
+    name:"abhay",
+    sec:'A',
+    sub:"coding",
+    marks:93,
+   };
+   console.log(typeof myObj)
+   console.log(myObj)
+   console.log(myObj.marks)
+   */
+
+   /*
+  let myFun = function(){
+    console.log("Hello World")
+  }
+  console.log(typeof myFun)
+  myFun()                       // function call
+  */
